@@ -1,0 +1,19 @@
+* {
+    background-color: goldenrod;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+ul {
+    text-align: right;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
