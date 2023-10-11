@@ -33,3 +33,6 @@ Joy Cheruto
 # License and Copyright
 MIT License Copyright (c) 2023 Joy Cheruto
 
+# Website screenshots
+<img src="./images/Capture.PNG">
+<img src="./images/Capture1.PNG">
