@@ -1,19 +1,104 @@
 * {
     background-color: goldenrod;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
-}
-ul {
-    text-align: right;
-    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
-footer{
-    position: fixed;
+.headings {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex input {
+    padding: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+
+
+
+.flex button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.photos div {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 8px 8px rgba(0.0, 0.0, 0.0, 0.1);
+    width: calc(30% - 20px);
+    align-items: left;
+}
+
+.photos img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+button {
+    display: block;
+    margin: 10px 0; 
+    background-color: green; 
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    width: auto;
+}
+
+
+a {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px 0;
+    width: auto;
+  }
+  
+
+
+
+
+footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 10px;
+    text-align: center;
 }
+
+
+
 
