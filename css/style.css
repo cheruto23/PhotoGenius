@@ -44,6 +44,10 @@
     padding: 10px 20px;
 }
 
+.flex button:hover {
+    background-color: darkgreen;
+}
+
 /*css for images*/
 .photos {
     display: flex;
@@ -59,6 +63,7 @@
     box-shadow: 8px 8px rgba(0.0, 0.0, 0.0, 0.1);
     width: calc(30% - 20px);
     align-items: left;
+    text-align: left;
 }
 
 .photos img {
