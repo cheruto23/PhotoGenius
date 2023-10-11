@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Adding event listener to form 
     form.addEventListener("submit", function (event) {
-        //Prventing defaul behaviour of the form
+        //Prventing default behaviour of the form
       event.preventDefault();
   
       // Getting number of photos requested
@@ -40,14 +40,17 @@ document.addEventListener("DOMContentLoaded", function () {
             const id = document.createElement("p");
             id.textContent = `ID: ${photo.id}`;
             photoContainer.appendChild(id);
+
             //Displays author of the photo and appends it
             const author = document.createElement("p");
             author.textContent = `Author: ${photo.author}`;
             photoContainer.appendChild(author);
+
             //displays url of the photo and appends it
             const url = document.createElement("p");
             url.textContent = `URL: ${photo.url}`;
             photoContainer.appendChild(url);
+            
             //displays download url of the photo and appends it
             const downloadUrl = document.createElement("p");
             downloadUrl.textContent = `Download URL: ${photo.download_url}`;
