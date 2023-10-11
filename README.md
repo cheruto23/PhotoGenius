@@ -27,7 +27,7 @@ This website allows one to search for the number of photos they need so that the
 2. CSS - for styling the website
 3. Javascript - for websites interactivity
 
-#Author
+# Author
 Joy Cheruto
 
 # License and Copyright
