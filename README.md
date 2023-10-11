@@ -1,6 +1,15 @@
 # PhotoGenius
 This is a placeholder image provider website.
 
+# Table of Contents
+- [Introduction](#introduction)
+- [Installation Requirements](#installation-requirements)
+- [Installation Steps](#installation-steps)
+- [Technology Used](#technology-used)
+- [Author](#author)
+- [License and Copyright](#license-and-copyright)
+- [Website Screenshots](#website-screenshots)
+
 ## Introduction
 PhotoGenius is a website that allows you to search for the number of photos you need as placeholder images for your web development projects. The data is fetched from an API and displayed on the website.
 
